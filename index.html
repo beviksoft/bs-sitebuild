@@ -13,24 +13,26 @@
     <title>Start Bootstrap</title>
 </head>
 
-<body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="https://getbootstrap.com/">Start Bootstrap</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-link" href="#">Download</a>
-                <a class="nav-link" href="#">Features</a>
-                <a class="nav-link" href="#">Contact</a>
+<body class="container text-center">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="https://getbootstrap.com/">Start Bootstrap</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-link" href="#download">Download</a>
+                    <a class="nav-link" href="#features">Features</a>
+                    <a class="nav-link" href="#contact">Contact</a>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </header>
 
-    <section>
-        <div class="container text-center">
+    <main>
+        <section>
             <div class="row">
                 <div class="col-lg-6">
                     <p>
@@ -49,11 +51,9 @@
                     <p>Smartphone image</p>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section>
-        <div class="text-center">
+        <section id="download">
             <p>
                 Discover what all the
                 buzz is about!
@@ -61,7 +61,7 @@
             <p>
                 Our app is available on any mobile device! Download now to get started!
             </p>
-            <div class="container">
+            <div>
                 <div class="row">
                     <div class="col-lg-6">
                         <p>GooglePlay</p>
@@ -71,16 +71,14 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section>
-        <div class="text-center">
-            <p>Unlimited Features, Unlimited Fun</p>
-            <p>Check out what you can do with this app theme!</p>
-            <p>------------</p>
-        </div>
-        <div class="container text-center">
+        <section id="features">
+            <div>
+                <p>Unlimited Features, Unlimited Fun</p>
+                <p>Check out what you can do with this app theme!</p>
+                <p>------------</p>
+            </div>
             <div class="row">
                 <div class="col-lg-4">
                     <p>Smartphone image</p>
@@ -124,29 +122,34 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section>
-        <div class="text-center">
-            <p>
-                Stop waiting.<br>
-                Start building.
-            </p>
-            <p>LET'S GET STARTED!</p>
-        </div>
-    </section>
+        <section>
+            <div class="text-left">
+                <p>
+                    Stop waiting.<br>
+                    Start building.
+                </p>
+                <p>LET'S GET STARTED!</p>
+            </div>
+        </section>
 
-    <section>
-        <div class="text-center">
-            <p>We <span>LOVE</span> new friends!</p>
-        </div>
-        <nav class="text-center">
-            ICONS: Twitter, FB, Google+
+        <section id="contact">
+            <div>
+                <p>We <span>LOVE</span> new friends!</p>
+            </div>
+            <nav>
+                ICONS: Twitter, FB, Google+
+            </nav>
+        </section>
+    </main>
+
+    <footer>
+        <p>© Your Website 2018. All Rights Reserved.</p>
+        <nav>
+            LINKS: Privacy, Terms, FAQ
         </nav>
-    </section>
-
-    <footer></footer>
+    </footer>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
